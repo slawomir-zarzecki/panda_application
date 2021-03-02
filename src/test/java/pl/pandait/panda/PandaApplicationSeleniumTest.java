@@ -43,7 +43,7 @@ public class PandaApplicationSeleniumTest {
       //  driver = new FirefoxDriver(options);
 
         // Pamiętaj, że aplikacja Spring musi działać!
-        driver.get(String.format("http://192.168.44.44:%s", port));
+        driver.get(String.format("http://ubuntu_jenkins_slave:%s", port));
 
         //Czekamy 2 sekundy
         Thread.sleep(2000);
