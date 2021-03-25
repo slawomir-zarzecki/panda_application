@@ -177,6 +177,9 @@
               <buildArgs>
                 <JAR_FILE>target/${project.artifactId}-${project.version}.jar</JAR_FILE>
               </buildArgs>
+              <excludes>
+                <exclude>*SeleniumTest.java</exclude>
+              </excludes>
             </configuration>
           </plugin>
         </plugins>
